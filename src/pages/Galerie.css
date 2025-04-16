@@ -1,0 +1,42 @@
+.galerie-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.galerie-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.oster-bilder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.oster-bilder img {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.oster-bilder img:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 600px) {
+  .galerie-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .oster-bilder img {
+    max-width: 90%;
+  }
+}

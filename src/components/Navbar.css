@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #1e1e2f;
+    padding: 1rem;
+  }
+
+  .navbar-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00;
+  }
