@@ -1,13 +1,31 @@
-# React + Vite
+# 🎯 React Projekt – Webseiten-Nachbau
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Aufgabenstellung
 
-Currently, two official plugins are available:
+Die Aufgabe bestand darin, **eine bestehende Webseite so genau wie möglich nachzubauen** – einschließlich Layout, Struktur, Farben, Video-Hintergrund, Navigation, sowie responsivem Verhalten.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ziel war es, die Umsetzung **komplett in React** mit **normalem CSS (ohne Frameworks)** durchzuführen und dabei moderne Best Practices anzuwenden.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# usefull-techs
+## 🛠️ Verwendete Technologien (Useful Techs)
+
+| Technologie          | Zweck                                                                 |
+|----------------------|-----------------------------------------------------------------------|
+| 🧩 **React**           | Für die komponentenbasierte Struktur der Webanwendung                |
+| 🌐 **React Router DOM** | Für das Routing zwischen den Unterseiten                             |
+| 🎨 **CSS**             | Für das Layout, Styling und Animationen ohne externe Libraries       |
+| 🎥 **HTML5 `<video>`** | Für den Hintergrund-Video-Bereich auf der Landingpage                |
+| 🖥️ **Web-APIs**        | Zum Auslesen von Bildschirmgröße, RAM, Sprache & Geolocation (About) |
+
+---
+
+## 🔍 Projektübersicht
+
+**Seiten im Projekt:**
+
+- 🏠 **Landingpage** mit Video-Hintergrund und Typewriter-Text  
+- 👤 **About-Seite** mit Infos über System, Bildschirm, Netzwerk und Standort  
+- 🎞️ **Film-Bibliothek** mit Suchfunktion und dynamischer Tabelle  
+- 🐣 **Oster-Galerie** mit quadratischen, gleichmäßig gestylten Bildern  
+- 🧭 **Navigationsleiste** mit `react-router-dom`, einmal oberhalb, einmal unterhalb (Landing)
