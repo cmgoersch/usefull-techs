@@ -5,11 +5,11 @@ const About = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [screenWidth, setScreenWidth] = useState(window.screen.width);
   const [language, ] = useState(navigator.language);
-  const [online, ] = useState(navigator.onLine);
+  const [online] = useState(navigator.onLine);
   const [latitude, setLatitude] = useState(null);
   const [longitude, setLongitude] = useState(null);
-  const [cores, ] = useState(navigator.hardwareConcurrency || 0);
-  const [ram, ] = useState(navigator.deviceMemory || 'unbekannt');
+  const [cores] = useState(navigator.hardwareConcurrency || 0);
+  const [ram] = useState(navigator.deviceMemory || 'unbekannt');
 
   useEffect(() => {
     const handleResize = () => {
